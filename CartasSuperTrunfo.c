@@ -64,7 +64,7 @@ int main() {
   scanf("%s", codigo2);
     
   printf("Digite o nome da Cidade: ");
-  scanf(" %[^\n]", nomeCidade2);
+  scanf(" %[^\n]", nomedacidade2);
     
   printf("Digite a População: ");
   scanf("%d", &populacao2);
@@ -76,11 +76,31 @@ int main() {
   scanf("%f", &pib2);
     
   printf("Digite o número de Pontos Turísticos: ");
-  scanf("%d", &pontosTuristicos2);
+  scanf("%d", &pontosturisticos2);
     
   printf("\n-----------------------------------\n\n");
   // Área para exibição dos dados da cidade
+  // --- EXIBIÇÃO DOS DADOS DA CARTA 1 ---
+  printf("=== Carta 1 ===\n");
+  printf("Estado: %c\n", estado1);
+  printf("Código: %s\n", codigo1);
+  printf("Nome da Cidade: %s\n", nomedacidade1);
+  printf("População: %d\n", populacao1);
+  printf("Área: %.2f km²\n", area1); // %.2f limita a exibição para 2 casas decimais
+  printf("PIB: %.2f bilhões de reais\n", pib1);
+  printf("Número de Pontos Turísticos: %d\n", pontosturisticos1);
+    
+  printf("\n");
 
+  // --- EXIBIÇÃO DOS DADOS DA CARTA 2 ---
+  printf("=== Carta 2 ===\n");
+  printf("Estado: %c\n", estado2);
+  printf("Código: %s\n", codigo2);
+  printf("Nome da Cidade: %s\n", nomedacidade2);
+  printf("População: %d\n", populacao2);
+  printf("Área: %.2f km²\n", area2);
+  printf("PIB: %.2f bilhões de reais\n", pib2);
+  printf("Número de Pontos Turísticos: %d\n", pontosturisticos2);
 
 return 0;
 } 
